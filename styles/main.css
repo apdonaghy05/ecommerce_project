@@ -1,0 +1,192 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-weight: lighter;
+  color: #2d2d2d;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* TODO: size images manually so this is not necessary */
+img {
+  height: 17rem;
+  margin: 0 auto;
+  display:block;
+}
+
+/***************** NAV *****************/
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav ul li{
+  margin-top:.55rem;
+  display:inline-flex;
+  color:#54862A;
+  font-size:1.2rem;
+  letter-spacing: .01rem;
+
+}
+
+header nav a{
+  font-family: 'Montserrat', sans-serif;
+ 
+  
+}
+
+nav{
+  width:82%;
+  margin:0 auto;
+ }
+
+
+nav a{
+  color:white;
+}
+
+nav a:hover{
+  color:white;
+}
+
+.blueBackground{
+    background-color:dodgerblue;
+    min-height: 2.3rem;
+}
+
+.twenty_five{
+  width:20.5%;
+}
+
+.twenty_five:last-child{
+  float:right;
+  margin-right: 0px;
+  text-align: right;
+  display: block;
+}
+
+
+
+/**************** HERO *****************/
+
+header img {
+  max-height: 7rem;
+}
+
+h1 .logo-w {
+  font-size: 3.4rem;
+  font-family: 'Pacifico', sans-serif;
+  color:dodgerblue;
+}
+
+header h1{
+  color:dodgerblue;
+  font-size: 2.4rem;
+  margin-top:2rem;
+  font-family: 'Pacifico', sans-serif;
+}
+
+header img{
+  height:5rem;
+}
+
+header aside{
+  margin-top:1%;
+}
+
+header aside label{
+  font-size:.75rem;
+}
+
+.top{
+  margin-top:3%;
+}
+
+input[type=email]{
+  border-radius:10px;
+}
+
+/**************** ASIDE ****************/
+
+input[type="submit"] {
+  padding: .25rem;
+  background-color: #3D7FCF;
+  border: 1px solid #3D7FCF;
+  border-radius: 5px;
+  font-size: .75rem;
+  color: white;
+  
+}
+
+input[type=submit]{
+  background-color: dodgerblue;
+}
+
+/*********** PRODUCTS SECTION ***********/
+
+main{
+  margin-top:3%;
+    
+}
+
+section {
+  padding: 0 .75rem;
+}
+
+section h2 {
+  padding-top: 1.5rem;
+  margin-bottom:1rem;
+  font-size: 1.7rem;
+  text-align: center;
+  color: darkgrey;
+  font-weight: 100;
+  letter-spacing: .08rem;
+  
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom:.5rem;
+  text-align: center;
+  color: #2d2d2d;
+  
+}
+
+
+.row p{
+  max-width: 20rem;
+  margin:0 auto;
+  line-height: 1.15rem;
+  font-size: .9rem;
+  color: #666666;
+}
+
+.row div{
+  margin-bottom:2rem;
+}
+
+.clear{
+  clear:both;
+}
+
+div .price{
+  color:dodgerblue;
+  font-weight: 600;
+}
+
+.flex{
+  display:inline-flex;
+}
+
+.right{
+  float:right;
+}
+
+
+
