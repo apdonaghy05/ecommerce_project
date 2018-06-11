@@ -1,0 +1,32 @@
+.block{
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+ 
+  border-bottom: 1px solid white;
+
+
+
+}
+
+.block2{
+	border-bottom: 1px solid white;
+}
+
+.center{
+
+display:inline-flex;
+margin:0 auto;
+text-align: center;
+margin-top: 5%;
+}
+
+
+.twenty_five:last-child{
+  float:right;
+  margin-right:0;
+  text-align:right;
+  display: inline-block;
+  margin-bottom: 1rem;
+}

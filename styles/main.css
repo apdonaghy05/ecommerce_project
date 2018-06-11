@@ -21,9 +21,20 @@ img {
 }
 
 /***************** NAV *****************/
+nav ul li a:link {
+  text-decoration: none;
+  
+}
 
-nav a:hover {
-  text-decoration: underline;
+nav ul li a:visited {
+  
+  color:white;
+}
+
+
+nav ul li a:hover {
+  
+  color:#B2D9FD;
 }
 
 nav ul li{
@@ -187,6 +198,10 @@ div .price{
 .right{
   float:right;
 }
+
+
+
+
 
 
 
